@@ -25,7 +25,7 @@ function countdown(){
 
     let addZeroes = num => num < 10 ? `0${num}` : num;
 
-    if (endTime < endTime){
+    if (endTime < todayTime){
         clearInterval(i);
         document.querySelector(".countdown").
         innerHTML = `<h1> Countdowm has expired !</h1>`;
