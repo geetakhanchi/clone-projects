@@ -5,7 +5,7 @@ let secbox = document.getElementById("sec-box");
 
 console.log(daybox,hrbox,minbox,secbox);
 
-let endDate = new Date(2023,9,5,16,30);
+let endDate = new Date(2023,9,5,16,40);
 
 // output value in milliseconds
 
